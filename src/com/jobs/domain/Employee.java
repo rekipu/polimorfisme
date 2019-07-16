@@ -13,7 +13,6 @@ public class Employee extends AbsStaffMember {
 		this.salaryPerMonth=salaryPerMonth;
 		this.paymentRate=paymentRate;
 	}
-
 	
 	@Override
 	public void pay() {
