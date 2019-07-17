@@ -26,4 +26,8 @@ public abstract class AbsStaffMember {
 	}
 
 	public abstract void pay();
+
+	public String getName() {
+		return this.name;
+	}
 }

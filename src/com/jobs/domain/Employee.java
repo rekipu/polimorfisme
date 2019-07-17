@@ -18,5 +18,9 @@ public class Employee extends AbsStaffMember {
 	public void pay() {
 		totalPaid=paymentRate.pay(salaryPerMonth);
 	}
+	
+	public String getName() {
+		return this.name;
+	}
 
 }
